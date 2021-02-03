@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+/* nav styling start */
+.nav-style{
+    background: white;
+    box-shadow: 0 10px 30px 0 rgba(138, 155, 165, 0.15);
+}
+.navbar-brand{
+    width: 80px;
+    height: 75px;
+}
+.navbar-nav li a{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 9px;
+    letter-spacing: 3px;
+    color: rgba(72, 79, 83, 0.15);
+    font-family: 'Mulish', sans-serif;
+    position: relative;
+}
+.navbar-nav li a:before{
+    content: "";
+    position: absolute;
+    top: 100%;
+    bottom: 50%;
+    width: 0%;
+    height: 2%;
+    background-color: red;
+    transition: all 0.4s linear;
+
+}
+.navbar-nav li a:hover:before{
+    width: 97%;
+}
+.navbar-nav li a:hover{
+color: red !important;
+}
+.navbar-nav li .nav-link.active{
+    color: rgb(233, 55, 55) !important;
+}
+@media (max-width:992px){
+   .navbar-nav{
+    padding-top: 39px;
+    text-align: center;
+}
+.navbar-nav li a:before{
+    content: "";
+    position: absolute;
+    top: 100%;
+    bottom: 50%;
+    width: 0%;
+    height: 2%;
+    background-color: red;
+    transition: all 0.4s linear;
+
+}
+.navbar-nav li a:hover:before{
+    width: 25%;
+}
+}
+/* nav styling end */
+
+/* header section style start */
+.p-style{
+    font-size: 30px;
+    margin-top: 40px;
+    font-weight: bold;
+    padding: 5px;
+}
+.span-style{
+    margin-left: 30px;
+    font-style: italic;
+    font-size: 25px;
+}
+.btn1{
+    margin-top: 20px;
+}
+.hire{
+    font-size: 18px;
+    padding: 3px;
+    text-transform: capitalize;
+    outline: none;
+    color: red;
+    background-color: rgb(245, 240, 240);
+    border: 1px solid;
+    transition: 0.1s linear;
+    width: 150px;
+    height: 35px;
+    font-weight: bold;
+}
+.contactme{
+    font-size: 18px;
+    padding: 3px;
+    text-transform: capitalize;
+    outline: none;
+    color: grey;
+    background-color: rgb(245, 240, 240);
+    border: 1px solid;
+    transition: 0.1s linear;
+    width: 150px;
+    height: 35px;
+    font-weight: bold;
+}
+.hire:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+.contactme:hover{
+    color: red;
+    background-color: white;
+    border: 1px solid black;}
+.icon{
+    padding: 5px;
+
+}
+.header-mail{
+    margin-top: 25px;
+}
+.email{
+    font-size: 20px;
+    padding: 7px;
+}
+.image{
+    margin-top: 120px;
+}
+.mail{
+    text-decoration: none;
+    color: black;
+
+}
+.mail:hover{
+    color: red;
+    background-color:  light grey;
+    border: 2px solid black;
+    transition: 0.2s linear;
+}
+.about_hdng{
+    margin-top: 20ox;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 20px;
+    margin-left: 15px;
+
+}
+.about_para{
+    margin-top: 20ox;
+    font-size: 16px;
+    margin-left: 18px;
+
+}
+.image3{
+    margin-top: 50px;
+}
